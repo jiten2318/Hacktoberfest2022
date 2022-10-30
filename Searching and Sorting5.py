@@ -41,8 +41,6 @@ def partition(array, low, high):
 	return i + 1
 
 # function to perform quicksort
-
-
 def quickSort(array, low, high):
 	if low < high:
 
@@ -58,8 +56,8 @@ def quickSort(array, low, high):
 		quickSort(array, pi + 1, high)
 
 
-data = [1, 7, 4, 1, 10, 9, -2]
-print("Unsorted Array")
+data = [1, -7, 4, 2, 10, 9, -2]
+print("Array is not sorted")
 print(data)
 
 size = len(data)
